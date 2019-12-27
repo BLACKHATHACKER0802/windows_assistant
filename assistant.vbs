@@ -16,9 +16,9 @@ Sapi.speak "Opening youtube"
 wshshell.run "www.youtube.com"
 
 else
-if Input = "instructables" OR Input = "Instructables" then
-Sapi.speak "Opening instructables"
-wshshell.run "www.instructables.com"
+  if Input = "wordpad" OR Input = "Wordpad" then
+    Sapi.speak "Opening wordpad"
+    wshshell.run "wordpad"
 
 else
 if Input = "google" OR Input = "Google" then
